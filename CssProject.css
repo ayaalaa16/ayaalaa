@@ -1,0 +1,145 @@
+/* CSS للـ Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #8B4513; /* لون بني لتناسب طابع المطعم */
+    color: #fff;
+}
+
+.logo h1 {
+    font-size: 28px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* CSS للـ Landing Section */
+.landing {
+    text-align: center;
+    padding: 200px 20px;
+    background: url('Background_image.jpg') no-repeat center center/cover; /* صورة خلفية للمطعم */
+    color: #fff;
+}
+
+.landing h2 {
+    font-size: 36px;
+}
+
+.landing p {
+    font-size: 18px;
+    margin: 15px 0;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 12px 25px;
+    background-color: #FFD700; /* لون ذهبي للزر */
+    color: #8B4513;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+/* CSS للـ Menu Section */
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 40px 20px;
+    background-color: #f9f4ef;
+}
+
+.cards h2 {
+    width: 100%;
+    text-align: center;
+    color: #8B4513;
+}
+
+.card {
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    text-align: center;
+    width: 250px;
+}
+
+.card h3 {
+    font-size: 24px;
+    color: #8B4513;
+}
+
+.card p {
+    font-size: 16px;
+    color: #666;
+}
+
+/* CSS للـ Reservation Form */
+.contact-form {
+    padding: 40px 20px;
+    background-color: #eee;
+    text-align: center;
+}
+
+.contact-form h2 {
+    color: #8B4513;
+}
+
+.contact-form form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.contact-form label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+.contact-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.contact-form button {
+    padding: 12px 20px;
+    background-color: #8B4513;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* CSS للـ Footer */
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    position: absolute;
+    bottom: 0%;
+    width: 97%;
+}
+
+.footer .contact-info,
+.footer .social-links {
+    margin: 10px 0;
+}
+
+.footer a {
+    color: #FFD700;
+    text-decoration: none;
+}
